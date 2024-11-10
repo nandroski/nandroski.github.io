@@ -1,25 +1,31 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: "The mystery of life isn't a problem to solve, but a reality to experience." - Frank Herbert
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p><a href='https://clasp.engin.umich.edu/'>University of Michigan</a>. </p>
+    <p>PhD Student in Climate Science</p>
+    <p> <a href="mailto:nandrosk@umich.edu">nandrosk@umich.edu</a> </p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a pre-candidate PhD student at the [University of Michigan's](https://clasp.engin.umich.edu/) Climate and Space Science department advised by Dr. Christiane Jablonowski. Currently, I am involved in testing and applying high resolution climate modeling to study atmospheric dynamics.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+In 2024, I recieved my BS in Physics at [Cal Poly San Luis Obispo](https://calpoly.edu) with minors in mathematics and astronomy. I conducted reserach in a variety of projects including nuclear fission, stellar evolution, and solar physics.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Academic Interests:
+* High resolution climate model development
+* Ideal simulation test cases as tools for comparison, understanding, and teaching.
+* Data visualization and interaction as an effective tool for teaching others
+
+See your polynomial of the day!
+<iframe src="https://www.desmos.com/calculator/vz3lqiiasf?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
