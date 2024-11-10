@@ -31,8 +31,8 @@
       end_date: 2023-08
       description:
         - Advised by Dr. Kristoff Paulson.
-        - "Developed original code to extract, visualize, and analyze plasma and electromagnetic (EM) data from NASA\'s Parker Solar Probe (PSP) mission in order to search for EM wave activity in the Sun\'s corona that may contribute to the high temperatures at the crux of the coronal heating problem."
-        - "Produced a catalog of Sub-Alfvenic intervals in PSP data which indicates when the probe is within the corona and presented the list to the PSP's SWEAP instrument science team."
+        - "Developed original code to extract, visualize, and analyze plasma and electromagnetic (EM) data from NASAs Parker Solar Probe (PSP) mission in order to search for EM wave activity in the Suns corona that may contribute to the high temperatures at the crux of the coronal heating problem."
+        - "Produced a catalog of Sub-Alfvenic intervals in PSP data which indicates when the probe is within the corona and presented the list to the PSPs SWEAP instrument science team."
         - title: Cal Poly Senior Project.
           contents:
             - Continued work with Dr. Paulson until June 2024 culminating in a <a href='https://digitalcommons.calpoly.edu/physsp/234'>senior project report</a>.
@@ -87,7 +87,7 @@
         - California Polytechnic State University, San Luis Obispo Philip and Christina Bailey College of Science and Math 2024 Academic Excellence Award
         - Cal Poly, San Luis Obispo Department of Physics Academic Excellence Award
         - 'California Polytechnic State University, San Luis Obispo graduating honors *Summa Cum Laude*'
-        - "Cal Poly, San Luis Obispo Philip and Christina Bailey College of Science and Math Dean\'s List All quarters of attendance"
+        - "Cal Poly, San Luis Obispo Philip and Christina Bailey College of Science and Math Deans List All quarters of attendance"
 
 - title: Academic Interests
   type: nested_list
