@@ -22,10 +22,10 @@ I am a pre-candidate PhD student at the [University of Michigan's](https://clasp
 
 In 2024, I recieved my BS in Physics at [Cal Poly San Luis Obispo](https://calpoly.edu) with minors in mathematics and astronomy. I conducted reserach in a variety of projects including nuclear fission, stellar evolution, and solar physics.
 
-Academic Interests:
+<!-- Academic Interests:
 * High resolution climate model development
 * Ideal simulation test cases as tools for comparison, understanding, and teaching.
 * Data visualization and interaction as an effective tool for teaching others
 
 See your polynomial of the day!
-<iframe src="https://www.desmos.com/calculator/vz3lqiiasf?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+<iframe src="https://www.desmos.com/calculator/vz3lqiiasf?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe> -->
