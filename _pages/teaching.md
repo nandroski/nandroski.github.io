@@ -22,7 +22,7 @@ One of my favorite things to do with physics is to take what I've learned from m
 
 These notes primarily focus on the similarities that can be drawn between the mathematics of vectors (linear algebra) with functions that lead to the ideas of functional analysis.  The idea that functions are vectors has powerful implications in the study of differential equations.
 <br />
-<a href="https://fluorescent-shirt-7d3.notion.site/Classical-Mechanics-6bcf887287814330b5eb7bf9eff3f143?pvs=4">Calculus, Linear Algebra, and Differential Equation Theory</a>
+<a href="https://fluorescent-shirt-7d3.notion.site/Theoretical-Methods-of-Physics-1d1bb205e0ae4bb58b75d4a2b54b583b">Calculus, Linear Algebra, and Differential Equation Theory</a>
 
 # Classical Mechanics
 
