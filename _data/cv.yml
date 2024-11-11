@@ -6,29 +6,28 @@
     - name: Location
       value: Department of Climate and Space Sciences and Engineering (CLASP) 2455 Hayward St
     - name: Email
-      value: nandrosk@umich.edu
+      value: <a href='mailto:nandrosk@umich.edu'>nandrosk@umich.edu</a>
 
 - title: Education
   type: time_table
   contents:
     - degree: PhD
       institution: University of Michigan, Ann Arbor, Michigan
-      start_date: 2024-08 
+      description:
+       - 2024 - Present. Anticipated 2029.
     - degree: BS
       institution: Cal  Poly, San Luis Obispo
-      start_date: 2020
-      end_date: 2024
+      year: 2024
       description:
         - Minors in Astronomy and Mathematics.
-        - GPA: 4.0/4.0
+        - "GPA: 4.0/4.0"
 
 - title: Experience
   type: time_table
   contents:
     - title: Solar Research Experience for Undergraduates
       institution: Center for Astrophysics Harvard and Smithsonian.
-      start_date: 2023-06
-      end_date: 2023-08
+      year: 2023
       description:
         - Advised by Dr. Kristoff Paulson.
         - "Developed original code to extract, visualize, and analyze plasma and electromagnetic (EM) data from NASAs Parker Solar Probe (PSP) mission in order to search for EM wave activity in the Suns corona that may contribute to the high temperatures at the crux of the coronal heating problem."
@@ -40,8 +39,7 @@
 
     - title: Undergraduate Research Student
       institution: Cal Poly, San Luis Obispo.
-      start_date: 2023-03
-      end_date: 2023-05
+      year: 2023
       description:
         - Advised by Dr. Elizabeth Jeffery.
         - Standardized photometry of the metal rich open cluster NGC 6253 and used a Bayesian Analysis software (BASE-9) to constrain the cluster age by fitting the main sequence turn off age.
@@ -49,8 +47,7 @@
 
     - title: Frost Research Student
       institution: Cal Poly, San Luis Obispo.
-      start_date: 2022-06
-      end_date: 2022-08
+      year: 2022
       description:
         - Simulated unresolved binary star systems to analyze the effectiveness of a novel technique for measuring the age of individual main sequence stars through Bayesian analysis.
         - Developed a data framework in Jupyter Notebook with widgets that organized and streamlined the analysis of 100s of non-Gaussian posterior distributions.
@@ -58,24 +55,21 @@
 
     - title: Frost Research Student
       institution: Cal Poly, San Luis Obispo.
-      start_date: 2021-06
-      end_date: 2021-08
+      year: 2021
       description:
         - Advised by Dr. Jennifer Klay.
         - Worked with large sample of millions of nuclear fission event data from the Neutron Induced Fission Fragment Tracking Experiment (NIFFTE) with CERN’s ROOT framework.
         - Developed an algorithm to characterize and sort rare ternary alpha nuclear fission events.
 
-- title: Publications
+- title: Publications and Technical Reports
   type: time_table
   contents:
-    - title: Technical Reports
-      contents:
-        - title: Identifying Ion-Scale Waves in Parker Solar Probe Sub-Alfvénic Intervals
-          date: 2024-06
-          authors:
-            - Nicholas H. Androski
-            - Kristoff Paulson
-          url: <a href='https://digitalcommons.calpoly.edu/physsp/234'>Digital Commons @ Cal Poly</a>
+    - title: Identifying Ion-Scale Waves in Parker Solar Probe Sub-Alfvénic Intervals
+      date: 2024-06
+      authors:
+        - Nicholas H. Androski
+        - Kristoff Paulson
+      url: <a href='https://digitalcommons.calpoly.edu/physsp/234'>Digital Commons at Cal Poly</a>
           
       
 
@@ -86,7 +80,7 @@
       items:
         - California Polytechnic State University, San Luis Obispo Philip and Christina Bailey College of Science and Math 2024 Academic Excellence Award
         - Cal Poly, San Luis Obispo Department of Physics Academic Excellence Award
-        - 'California Polytechnic State University, San Luis Obispo graduating honors *Summa Cum Laude*'
+        - 'California Polytechnic State University, San Luis Obispo graduating honors Summa Cum Laude'
         - "Cal Poly, San Luis Obispo Philip and Christina Bailey College of Science and Math Deans List All quarters of attendance"
 
 - title: Academic Interests
