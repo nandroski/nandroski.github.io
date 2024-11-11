@@ -27,8 +27,9 @@ Academic Interests:
 * High resolution climate model development
 * Ideal simulation test cases as tools for comparison, understanding, and teaching.
 * Data visualization and interaction as an effective tool for teaching others
+<br />
+<br />
+<br />
+See your polynomial of the day:<br />
 
- 
- 
-See your polynomial of the day!
 <iframe src="https://www.desmos.com/calculator/ibkd035vqz?embed" width="750" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
