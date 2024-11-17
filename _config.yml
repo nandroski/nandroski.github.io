@@ -230,6 +230,7 @@ exclude:
   - Dockerfile
   - docker-compose.yml
   - docker-compose-slim.yml
+  - _drafts/
   - FAQ.md
   - Gemfile
   - Gemfile.lock
