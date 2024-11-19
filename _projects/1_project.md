@@ -24,17 +24,17 @@ See the full details in the user_namelist file at the bottom of the page
 * 10 year long run with monthly mean output
 * Gravity waves by orography are disabled
 
-
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Equatorial_Tprofile_O3comparison.png" title="Equatorial vertical temperature profiles for 0.25X, 1X, and 4X ozone concentrations." class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Equatorial_Tprofile_O3comparison.png" title="Equatorial T Profile" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Polar_Tprofile_O3comparison.png" title="Polar vertical temperature profiles for 0.25X, 1X, and 4X ozone concentrations." class="img-fluid rounded z-depth-1" %}
-    </div>" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/MidLat_Tprofile_O3comparison.png" title="MidLatitude T Profile" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Polar_Tprofile_O3comparison.png" title="Polar T Profile" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Vertical temperature profiles for 0.25X, 1X, and 4X ozone concentrations at the equator and at the poles.
+    Characteristic temperature profiles for 0.25X, 1X, and 4X ozone concentrations at the equator and at the poles. Each profile is a 5 year zonal average additionally meridionally averaged over 10 degrees of latitude to produce a profile characteristic of the region.
 </div>
