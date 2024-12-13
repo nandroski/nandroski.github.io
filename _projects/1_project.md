@@ -55,14 +55,14 @@ For this project, I ran **three** 10 year-long, fixed SST aquaplanet simulations
 
 </details>
 
-<details>
-<summary>Do Ocean Gyres Occur on an Aquaplanet?</summary>
-<br>
-
-In class, we briefly discussed whether or not a planet without land, like an aquaplanet, would have ocean gyres. With a prescribed SST data-ocean, this question cannot be studied by the simulations run for this project as there is no explicit modeling of the ocean circulation. However, this analysis is possible for slab-ocean aquaplanet models. The authors <a href = "https://doi.org/10.1175/JCLI3874.1">Smith et. al (2006)</a> conducted a study that addresses this very question. In the study, they conducted three coupled ocean-atmosphere slab-ocean aquaplanet-like experiments on a low-resolution version of the Fast  Ocean, Rapid Troposphere Experiment (FORTE) model. The first configuration was a typical aquaplanet (WaterWorld) with no land or topography, the second an aquaplanet that contained a low barrier that blocks zonal flow in the ocean at all latitudes (RidgeWorld),and third an aquaplanet with a meridional barrier with a gap in the Southern hemisphere that allows circumglobal flow (DrakeWorld).
-</details>
-
 # Atmospheric Circulation
+
+<div class="row">
+    {% include figure.liquid loading="eager" path="assets/img/MidLat_Tprofile_O3comparison.png" title="Midlat T Profile" class="img-fluid rounded z-depth-1" %}
+</div>
+<div class="caption">
+    Figure 3: Characteristic temperature profiles for 1/4×, 1×, and 4× ozone concentrations at mid-latitudes. Each profile is a 5 year zonal average that is meridionally averaged over 10 degrees of latitude between 40-50 degrees north to produce a profile characteristic of the mid-latitudes.
+</div>
 
 In the simulations, there are five key observations atmospheric circulation for higher ozone concentrations $$(4\times\text{O3})$$:
 * Stratospheric warming
@@ -79,14 +79,6 @@ The opposite story is observed at lower ozone concentrations $$(1/4\times\text{O
 * Strengthened Hadley Circulation
 
 <div class="row">
-    {% include figure.liquid loading="eager" path="assets/img/MidLat_Tprofile_O3comparison.png" title="Midlat T Profile" class="img-fluid rounded z-depth-1" %}
-</div>
-<div class="caption">
-    Characteristic temperature profiles for 1/4×, 1×, and 4× ozone concentrations at mid-latitudes. Each profile is a 5 year zonal average that is meridionally averaged over 10 degrees of latitude between 40-50 degrees north to produce a profile characteristic of the mid-latitudes.
-</div>
-
-
-<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/1XU.png" title="Control U dist" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -98,7 +90,7 @@ The opposite story is observed at lower ozone concentrations $$(1/4\times\text{O
     </div>
 </div>
 <div class="caption">
-    Zonal wind (U) for 1×O3 (left) and difference plots: 4×O3-1×O3 (middle) and 1/4×O3-1×O3 (right). Averaged zonally over five years.
+    Figure 4: Zonal wind (U) for 1×O3 (left) and difference plots: 4×O3-1×O3 (middle) and 1/4×O3-1×O3 (right). Averaged zonally over five years.
 </div>
 
 
@@ -114,12 +106,24 @@ The opposite story is observed at lower ozone concentrations $$(1/4\times\text{O
     </div>
 </div>
 <div class="caption">
-     Meridional wind (V) for 1×O3 (left) and difference plots: 4×O3-1×O3 (middle) and 1/4×O3-1×O3 (right). Averaged zonally over five years.
+     Figure 5: Meridional wind (V) for 1×O3 (left) and difference plots: 4×O3-1×O3 (middle) and 1/4×O3-1×O3 (right). Averaged zonally over five years.
 </div>
 
 # Energy Balance
 
-The radiative heating profiles of the $$1\times\text{O3}$$ aquaplanet depict the two key energy balances in the lower atmosphere: a stratosphere in radiative equilibrium and a troposphere in radiative-convective equilibrium. In the stratosphere, the longwave cooling matches the shortwave warming. On the other hand, the troposphere is radiatively cooling which offsets the convective heating from the surface.
+<div class="row">
+    <div class="col-md mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/EnergyBalanceStrat.png" title="Stratospheric Radiative Heating Profile" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-md mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/EnergyBalanceTropo.png" title="Tropospheric Radiative Heating Profile" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Figure 6: The 5-year zonal and area-weighted meridional mean radiative heating rate profile for LW heating (red), SW heating (blue), and net heating (LW+SW) for each simulation run: 1×O3 (solid), 4×O3 (dash-dot), and 1/4×O3 (dash-dash). The profile is plotted with a log-pressure scale (left) to focus on the stratosphere and a linear-pressure scale (right) to focus on the troposphere.
+</div>
+
+The radiative heating profiles of the 1×O3 aquaplanet depict the two key energy balances in the lower atmosphere: a stratosphere in radiative equilibrium and a troposphere in radiative-convective equilibrium. In the stratosphere, the longwave cooling matches the shortwave warming. On the other hand, the troposphere is radiatively cooling which offsets the convective heating from the surface.
 
 For higher ozone concentrations $$(4\times\text{O3})$$ we see key observations on the radiative heating profiles:
 
@@ -132,13 +136,35 @@ For lower ozone concentrations $$(1/4\times\text{O3})$$ we again see the opposit
 
 On the global scale, a stable Earth-atmosphere climate system is in a balance between the incoming solar energy and the outgoing longwave radiation from Earth. Stable is meant in the sense that the climate system is at some equilibrium global average temperature over long time scales. This balance is called the top-of-atmosphere (TOA) balance. It is determined by the amount of solar radiation emitted by the Sun incident on Earth, the planetary albedo, and the outgoing longwave radiation. For our simulations, Earth's orbital distance and solar luminosity are constants.
 
+<div class="row justify-content-sm-center">
+    {% include figure.liquid loading="eager" path="assets/img/OLR.png" title="Outgoing Longwave Radiation" class="img-fluid rounded z-depth-1" %}
+</div>
+<div class="caption">
+    Figure 7: Zonally uniform ozone distribution for the 1×O3 control run based upon the AquaPlanet Experiment project specifications created by an annual average of the monthly AMIP ozone climatology. 
+</div>
+
 The greater longwave cooling at higher ozone concentrations is a natural consequence of a warmer stratosphere caused by the greater solar absorption from ozone. We might then expect that the greater longwave radiation in the stratosphere would ultimately cause more outgoing longwave radiation at the top of atmosphere. Indeed, as Fig. shows, this is the case and at lower ozone concentrations we analogously see lower OLR on average. To maintain TOA balance, we should expect a decrease in planetary albedo with increasing ozone concentration.
+
+<div class="row justify-content-sm-center">
+    {% include figure.liquid loading="eager" path="assets/img/CLDTOT.png" title="Vertical Cloud Distribution" class="img-fluid rounded z-depth-1" %}
+</div>
+<div class="caption">
+    Figure 8: Zonally uniform ozone distribution for the 1×O3 control run based upon the AquaPlanet Experiment project specifications created by an annual average of the monthly AMIP ozone climatology. 
+</div>
 
 The aquaplanet is a largely cloud covered world with vertically averaged cloud fractions between 0.70 and 0.95 across all the simulations. Clouds play an important role in the radiative budget of the atmosphere because of their shortwave albedo effects and their longwave, greenhouse effects. The albedo effects are particularly important for aquaplanets without sea ice because clouds provide the only mechanism for planetary albedo to change from the oceanic albedo across the globe. We see that the inverse relationship between global cloud cover and ozone concentration is a result of the top-of-atmosphere radiative balance between solar absorption and outgoing long wave radiation. In the $$4\times\text{O3}$$ run, we see that a decrease in global cloud cover causes a decrease in planetary albedo (greater solar absorption) that offsets that greater OLR to maintain the top of atmosphere radiative balance.
 
+For the TOA balance, at higher ozone concentrations:
+* Globally averaged OLR increases
+* Globally averaged cloud cover decreases (solar absorption increases)
+
+At lower ozone concentrations:
+* Globally averaged OLR decreases
+* Globally averaged cloud cover increases (solar absorption decreases)
+
 # Quasi-Biennial Oscillation
 
-While the focus of this project has primarily been on how climatological, zonally averaged quantities have changed in response to ozone, ozone concentration can also influence oscillations in the general atmospheric circulation. One such oscillation, is the quasi-biennial oscillation (QBO) in the stratosphere. The QBO is an oscillation in the prevailing tropical stratospheric zonal winds. The QBO has an easterly and a westerly phase. The phases are asymmetric in the sense that the easterly phase is larger in amplitude (wind speed). Each QBO phase begins at the top of the stratosphere, with the new prevailing wind spreading downwards until it hits the tropopause. To obtain the QBO in the aquaplanet simulations, we adjusted the CAM4 configuration to enable gravity wave production by frontogenesis and deep convection, which are necessary in driving the QBO. The QBO for the control aquaplanet can be seen in Fig. , which is similar in structure to the QBO observed on Earth.
+While the focus of this project has primarily been on how climatological, zonally averaged quantities have changed in response to ozone, ozone concentration can also influence oscillations in the general atmospheric circulation. One such oscillation, is the quasi-biennial oscillation (QBO) in the stratosphere. The QBO is an oscillation in the prevailing tropical stratospheric zonal winds. The QBO has an easterly and a westerly phase. The phases are asymmetric in the sense that the easterly phase is larger in amplitude (wind speed). Each QBO phase begins at the top of the stratosphere, with the new prevailing wind spreading downwards until it hits the tropopause. To obtain the QBO in the aquaplanet simulations, we adjusted the CAM4 configuration to enable gravity wave production by frontogenesis and deep convection, which are necessary in driving the QBO. The QBO for the control aquaplanet can be seen in Fig. 9, which is similar in structure to the QBO observed on Earth.
 
 <div class="row-sm">
     {% include figure.liquid loading="eager" path="assets/img/QBO_1X.png" title="Control QBO" class="img-fluid rounded z-depth-1" %}
@@ -150,11 +176,11 @@ While the focus of this project has primarily been on how climatological, zonall
     {% include figure.liquid loading="eager" path="assets/img/QBO_4Xd.png" title="1/4X QBO" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
-    Figure : The area-weighted meridional mean zonal wind over the tropics (5S-5N) for 1×O3 (top), 4×O3 (middle), and 1/4×O3 (bottom) averaged zonally over 5-years.
+    Figure 9: The area-weighted meridional mean zonal wind over the tropics (5S-5N) for 1×O3 (top), 4×O3 (middle), and 1/4×O3 (bottom) averaged zonally over 5-years.
 </div>
 
 
-Fig. shows the QBO calculated for the $$4\times\text{O3}$$ and $$1/4\times\text{O3}$$ simulations. At lower ozone concentrations, the QBO period becomes shorter and the increase in tropopause height can be observed by the rise in the band of westerly winds around $$100\text{ hPa}$$. At higher ozone concentrations, the QBO period is extended and more asymmetric with longer easterly phases compared to shorter and weaker westerly phases.
+Fig. 9 shows the QBO calculated for the $$4\times\text{O3}$$ and $$1/4\times\text{O3}$$ simulations. At lower ozone concentrations, the QBO period becomes shorter and the increase in tropopause height can be observed by the rise in the band of westerly winds around $$100\text{ hPa}$$. At higher ozone concentrations, the QBO period is extended and more asymmetric with longer easterly phases compared to shorter and weaker westerly phases.
 
 
 # Future Work and Questions
@@ -168,6 +194,6 @@ Finally, the analysis of cloud properties in this paper only scratched the surfa
 # The Full Report
 If you're interesting in learning more about this project, I wrote a full report for my course project that includes more figures and details. You can access the report below:
 
-<object data="assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf" width="300" height="200">
+<object data="assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf" type='application/pdf' width="300" height="200">
   alt : <a href="assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf">Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf</a>
 </object>
