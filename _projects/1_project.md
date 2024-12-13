@@ -82,9 +82,40 @@ The opposite story is observed at lower ozone concentrations $$(1/4\times\text{O
     {% include figure.liquid loading="eager" path="assets/img/MidLat_Tprofile_O3comparison.png" title="Midlat T Profile" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
-    Characteristic temperature profiles for 0.25X, 1X, and 4X ozone concentrations at mid-latitudes. Each profile is a 5 year zonal average that is meridionally averaged over 10 degrees of latitude between 40-50 degrees north to produce a profile characteristic of the mid-latitudes.
+    Characteristic temperature profiles for 1/4×, 1×, and 4× ozone concentrations at mid-latitudes. Each profile is a 5 year zonal average that is meridionally averaged over 10 degrees of latitude between 40-50 degrees north to produce a profile characteristic of the mid-latitudes.
 </div>
 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/1XU.png" title="Control U dist" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Diff4Xi_U.png" title="4X - 1X U difference" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Diff4Xd_U.png" title="1/4X - 1X U difference" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Zonal wind (U) for 1×O3 (left) and difference plots: 4×O3-1×O3 (middle) and 1/4×O3-1×O3 (right). Averaged zonally over five years.
+</div>
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/1XV.png" title="Control V dist" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Diff4Xi_V.png" title="4X - 1X V difference" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Diff4Xd_V.png" title="1/4X - 1X V difference" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+     Meridional wind (V) for 1×O3 (left) and difference plots: 4×O3-1×O3 (middle) and 1/4×O3-1×O3 (right). Averaged zonally over five years.
+</div>
 
 # Energy Balance
 
@@ -107,16 +138,36 @@ The aquaplanet is a largely cloud covered world with vertically averaged cloud f
 
 # Quasi-Biennial Oscillation
 
+While the focus of this project has primarily been on how climatological, zonally averaged quantities have changed in response to ozone, ozone concentration can also influence oscillations in the general atmospheric circulation. One such oscillation, is the quasi-biennial oscillation (QBO) in the stratosphere. The QBO is an oscillation in the prevailing tropical stratospheric zonal winds. The QBO has an easterly and a westerly phase. The phases are asymmetric in the sense that the easterly phase is larger in amplitude (wind speed). Each QBO phase begins at the top of the stratosphere, with the new prevailing wind spreading downwards until it hits the tropopause. To obtain the QBO in the aquaplanet simulations, we adjusted the CAM4 configuration to enable gravity wave production by frontogenesis and deep convection, which are necessary in driving the QBO. The QBO for the control aquaplanet can be seen in Fig. , which is similar in structure to the QBO observed on Earth.
 
+<div class="row-sm">
+    {% include figure.liquid loading="eager" path="assets/img/QBO_1X.png" title="Control QBO" class="img-fluid rounded z-depth-1" %}
+</div>
+<div class="row-sm">
+    {% include figure.liquid loading="eager" path="assets/img/QBO_4Xi.png" title="4X QBO" class="img-fluid rounded z-depth-1" %}
+</div>
+<div class="row-sm">
+    {% include figure.liquid loading="eager" path="assets/img/QBO_4Xd.png" title="1/4X QBO" class="img-fluid rounded z-depth-1" %}
+</div>
+<div class="caption">
+    Figure : The area-weighted meridional mean zonal wind over the tropics (5S-5N) for 1×O3 (top), 4×O3 (middle), and 1/4×O3 (bottom) averaged zonally over 5-years.
+</div>
+
+
+Fig. shows the QBO calculated for the $$4\times\text{O3}$$ and $$1/4\times\text{O3}$$ simulations. At lower ozone concentrations, the QBO period becomes shorter and the increase in tropopause height can be observed by the rise in the band of westerly winds around $$100\text{ hPa}$$. At higher ozone concentrations, the QBO period is extended and more asymmetric with longer easterly phases compared to shorter and weaker westerly phases.
 
 
 # Future Work and Questions
 
+Due to the short time frame for the project, the scope of this analysis is limited. There are several interesting questions that these results bring up. It is particularly intriguing how insensitive the tropospheric lapse rate and energy balance is at different ozone concentrations. In a realistic atmosphere, where surface temperatures are allowed to change, an increased greenhouse effect (such as by increasing ozone) would increase surface temperatures and also have an influence on the lapse rate through changes on the atmospheric moisture content. Is the forcing of SSTs that prevents changes in surface temperature also inhibiting changes in the lower tropospheric lapse rate? 
+
+Another interesting question lies in the asymmetry observed between the polar response and the subtropical/tropical response to changing ozone concentrations. Is the polar asymmetry a necessary result to ensure poleward transport of energy with latitudinally-varying ozone and SST distributions that peak in the tropics? Another area of further study is in the exploration of what other variables influence the tropopause height besides ozone. 
+
+Finally, the analysis of cloud properties in this paper only scratched the surface. On an aquaplanet, it is clear that clouds are important in controlling the planetary albedo and influencing the LW radiative balance. Conducting a more thorough analysis on the complex properties of clouds on the aquaplanet system could reveal interesting feedbacks between the stratospheric radiative balance and tropospheric clouds, particularly those near the tropopause.
 
 # The Full Report
 If you're interesting in learning more about this project, I wrote a full report for my course project that includes more figures and details. You can access the report below:
 
-<object data="https://drive.google.com/viewerng/
-viewer?embedded=true&url=assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf" width="300" height="200">
+<object data="assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf" width="300" height="200">
   alt : <a href="assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf">Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf</a>
 </object>
