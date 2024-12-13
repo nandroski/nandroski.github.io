@@ -116,3 +116,7 @@ The aquaplanet is a largely cloud covered world with vertically averaged cloud f
 # The Full Report
 If you're interesting in learning more about this project, I wrote a full report for my course project that includes more figures and details. You can access the report below:
 
+<object data="https://drive.google.com/viewerng/
+viewer?embedded=true&url=assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf" width="300" height="200">
+  alt : <a href="assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf">Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf</a>
+</object>
