@@ -20,6 +20,7 @@ For my CLIMATE 473 Climate Physics course, I used an aquaplanet model to simulat
 7. [Full Report](#paragraph6)
 
 <a name="introduction"></a>
+<br>
 # The Radiative Properties of Ozone:
 
 Stratospheric ozone, despite it's relatively small concentration compared to other gases in the atmosphere, has a large influence on the climate on Earth. Ozone in the stratosphere is primarily responsible for the existence of a tropopause, where lapse rate of temperature switches sign and separates the unstably stratified troposphere from the stably stratified stratosphere. Ozone has strong interactions with both shortwave (SW) and longwave (LW) radiation.
@@ -36,6 +37,7 @@ Light at UV wavelengths in the stratosphere are absorbed by molecular oxygen (O2
 Additionally, ozone has a strong vibration-rotation absorption band around $$9.6~\mu\text{m}$$ which lies in Earth's atmospheric window shown in <b>Fig. 1</b>. The atmospheric window is a region on the infrared spectrum between 8 to 13 $$\mu\text{m}$$ where the atmosphere is relatively transparent due to a lack of molecules with absorption bands here. However, since ozone's infrared absorption line lies within this window, changes in ozone concentration can strongly influence how transparent the window is and importantly how much radiation at these wavelengths escapes out to space.
 
 <a name="paragraph1"></a>
+<br>
 # The Aquaplanet Model
 
 An aquaplanet simulation is an idealized global atmospheric model that is completely water-covered with no land, topography, or sea ice. Aquaplanets use a data ocean, an ocean model that uses data to force and determine its state. In the Community Earth System Model (CESM), data-oceans come in two forms: a pure data model based an prescribed sea surface temperatures (SSTs) or a slab-ocean model where bottom heat flux and boundary layer depths are supplied to update SSTs  based on atmosphere-ocean fluxes. Additionally, while aquaplanets maintain a diurnal cycle, a perpetual equinox with a perfectly circular orbit (eccentricity and obliquity of zero) is enforced, resulting in no seasonal cycle. Aquaplanets provide a bridge in the hierarchy of atmospheric general circulation models between simplified physics component sets like the Held-Suarez configuration and Earth-like simulations used in the Atmospheric Modeling Intercomparison Project (AMIP). 
@@ -71,6 +73,7 @@ For this project, I ran **three** 10 year-long, fixed SST aquaplanet simulations
 <br>
 
 <a name="paragraph2"></a>
+<br>
 # Atmospheric Circulation
 
 <div class="row">
@@ -134,6 +137,7 @@ The opposite story is observed at lower ozone concentrations $$(1/4\times\text{O
 <br>
 
 <a name="paragraph3"></a>
+<br>
 # Energy Balance
 
 <div class="row">
@@ -188,6 +192,7 @@ At **lower** ozone concentrations:
 * Globally averaged cloud cover increases (solar absorption decreases)
 
 <a name="paragraph4"></a>
+<br>
 # Quasi-Biennial Oscillation
 
 While the focus of this project has primarily been on how climatological, zonally averaged quantities have changed in response to ozone, ozone concentration can also influence oscillations in the general atmospheric circulation. One such oscillation, is the quasi-biennial oscillation (QBO) in the stratosphere. The QBO is an oscillation in the prevailing tropical stratospheric zonal winds. The QBO has an easterly and a westerly phase. The phases are asymmetric in the sense that the easterly phase is larger in amplitude (wind speed). Each QBO phase begins at the top of the stratosphere, with the new prevailing wind spreading downwards until it hits the tropopause. To obtain the QBO in the aquaplanet simulations, we adjusted the CAM4 configuration to enable gravity wave production by frontogenesis and deep convection, which are necessary in driving the QBO. The QBO for the control aquaplanet can be seen in <b>Fig. 9</b>, which is similar in structure to the QBO observed on Earth.
@@ -209,6 +214,7 @@ While the focus of this project has primarily been on how climatological, zonall
 <b>Fig. 9</b> shows the QBO calculated for the $$4\times\text{O3}$$ and $$1/4\times\text{O3}$$ simulations. At lower ozone concentrations, the QBO period becomes shorter and the increase in tropopause height can be observed by the rise in the band of westerly winds around $$100\text{ hPa}$$. At higher ozone concentrations, the QBO period is extended and more asymmetric with longer easterly phases compared to shorter and weaker westerly phases.
 
 <a name="paragraph5"></a>
+<br>
 # Future Work and Questions
 
 Due to the short time frame for the project, the scope of this analysis is limited. There are several interesting questions that these results bring up. It is particularly intriguing how insensitive the tropospheric lapse rate and energy balance is at different ozone concentrations. In a realistic atmosphere, where surface temperatures are allowed to change, an increased greenhouse effect (such as by increasing ozone) would increase surface temperatures and also have an influence on the lapse rate through changes on the atmospheric moisture content. Is the forcing of SSTs that prevents changes in surface temperature also inhibiting changes in the lower tropospheric lapse rate? Another area of further study is in the exploration of what other variables influence the tropopause height besides ozone. 
@@ -218,10 +224,19 @@ Interestingly, while the results presented here hold well for the tropics and su
 Finally, the analysis of cloud properties in this paper only scratched the surface. On an aquaplanet, it is clear that clouds are important in controlling the planetary albedo and influencing the LW radiative balance. Conducting a more thorough analysis on the complex properties of clouds on the aquaplanet system could reveal interesting feedbacks between the stratospheric radiative balance and tropospheric clouds, particularly those near the tropopause.
 
 <a name="paragraph6"></a>
+<br>
 # The Full Report
 If you're interested in learning more about this project, I wrote a full report for my course project that includes more figures and details. You can access the report below:
 
 <object data="https://nandroski.github.io/assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf" type='application/pdf' width="700" height="500" align="middle">
   alt : <a href="https://nandroski.github.io/assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf">Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf</a>
 </object>
+
+If the PDF does not render, you can access the report at the following link: [Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf](https://nandroski.github.io/assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf)
+
+<br>
+
+<iframe src="https://nandroski.github.io/assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf" width="100%" height="100%"
+
+
 
