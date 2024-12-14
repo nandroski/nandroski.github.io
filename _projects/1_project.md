@@ -14,16 +14,16 @@ For my CLIMATE 473 Climate Physics course, I used an aquaplanet model to simulat
 
 Stratospheric ozone, despite it's relatively small concentration compared to other gases in the atmosphere, has a large influence on the climate on Earth. Ozone in the stratosphere is primarily responsible for the existence of a tropopause, where lapse rate of temperature switches sign and separates the unstably stratified troposphere from the stably stratified stratosphere. Ozone has strong interactions with both shortwave (SW) and longwave (LW) radiation.
 
-<div class="row-sm-center">
+<div class="row center-sm">
     {% include figure.liquid loading="eager" path="assets/img/IR_AbsorptionBandHartmann.jpg" title="IR_Absorption_Profile" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
     <b>Figure 1:</b> Infrared absorption spectrum for key molecules in Earth's atmosphere. Obtained from Figure 3.4 in <a href = "https://doi.org/10.1016/B978-0-12-328531-7.00003-7"> Hartmann, D. (2016)</a>, created by <a href = "https://www.osti.gov/biblio/6546426"> Valley, S. L. (1965).</a>
 </div>
 
-Light at UV wavelengths in the stratosphere are absorbed by molecular oxygen (O2) and by ozone (O3) itself. The absorption by O2 is essential in the creation of ozone while the absorption of O3 is a key destructive process of ozone. In an oxygen rich atmosphere like Earth's, the concentration of ozone in the stratosphere is largely a balance between these photochemical creation and destruction processes. These reactions create a continuum absorption band of UV radiation between around $$200-300\text{ nm}$$.
+Light at UV wavelengths in the stratosphere are absorbed by molecular oxygen (O2) and by ozone (O3) itself. The absorption by O2 is essential in the creation of ozone while the absorption of O3 is a key destructive process of ozone. In an oxygen rich atmosphere like Earth's, the concentration of ozone in the stratosphere is largely a balance between these photochemical creation and destruction processes. These reactions create a continuum absorption band of UV radiation between around $200-300\text{ nm}$.
 
-Additionally, ozone has a strong vibration-rotation absorption band around $$9.6~\mu\text{m}$$ which lies in Earth's atmospheric window shown in <b>Fig. 1</b>. The atmospheric window is a region on the infrared spectrum between 8 to 13 $$\mu\text{m}$$ where the atmosphere is relatively transparent due to a lack of molecules with absorption bands here. However, since ozone's infrared absorption line lies within this window, changes in ozone concentration can strongly influence how transparent the window is and importantly how much radiation at these wavelengths escapes out to space.
+Additionally, ozone has a strong vibration-rotation absorption band around $9.6~\mu\text{m}$ which lies in Earth's atmospheric window shown in <b>Fig. 1</b>. The atmospheric window is a region on the infrared spectrum between 8 to 13 $\mu\text{m}$ where the atmosphere is relatively transparent due to a lack of molecules with absorption bands here. However, since ozone's infrared absorption line lies within this window, changes in ozone concentration can strongly influence how transparent the window is and importantly how much radiation at these wavelengths escapes out to space.
 
 # The Aquaplanet Model
 
@@ -36,7 +36,7 @@ An aquaplanet simulation is an idealized global atmospheric model that is comple
     <b>Figure 2:</b> Zonally uniform ozone distribution for the 1×O3 control run based upon the AquaPlanet Experiment project specifications created by an annual average of the monthly AMIP ozone climatology. 
 </div>
 
-For this project, I ran **three** 10 year-long, fixed SST aquaplanet simulations with prescribed ozone concentrations. The first is a control ozone simulation $$(1\times\text{O3})$$, shown in <b>Fig. 2</b>, with a zonally-uniform, time-independent ozone distribution based upon the Aquaplanet Experiment Project standards that is based upon AMIP climatologies. In order to observe how increases and decreases to ozone impact climate, the other two runs apply a $$4\times$$ and $$1/4\times$$ factor to the $$1\times\text{O3}$$ control run respectively. For more details see the dropdowns below:
+For this project, I ran **three** 10 year-long, fixed SST aquaplanet simulations with prescribed ozone concentrations. The first is a control ozone simulation $(1\times\text{O3})$, shown in <b>Fig. 2</b>, with a zonally-uniform, time-independent ozone distribution based upon the Aquaplanet Experiment Project standards that is based upon AMIP climatologies. In order to observe how increases and decreases to ozone impact climate, the other two runs apply a $4\times$ and $1/4\times$ factor to the $1\times\text{O3}$ control run respectively. For more details see the dropdowns below:
 
 <details>
 <summary><big><b>The Model Details</b></big></summary>
@@ -65,10 +65,10 @@ For this project, I ran **three** 10 year-long, fixed SST aquaplanet simulations
     {% include figure.liquid loading="eager" path="assets/img/MidLat_Tprofile_O3comparison.png" title="Midlat T Profile" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
-    <b>Figure 3:</br> Characteristic temperature profiles for 1/4×, 1×, and 4× ozone concentrations at mid-latitudes. Each profile is a 5 year zonal average that is meridionally averaged over 10 degrees of latitude between 40-50 degrees north to produce a profile characteristic of the mid-latitudes.
+    <b>Figure 3:</b> Characteristic temperature profiles for 1/4×, 1×, and 4× ozone concentrations at mid-latitudes. Each profile is a 5 year zonal average that is meridionally averaged over 10 degrees of latitude between 40-50 degrees north to produce a profile characteristic of the mid-latitudes.
 </div>
 
-The clearest change that can be observed for the $$4\times\text{O3}$$ simulation compared to the control $$1\times\text{O3}$$ in <b>Fig. 3</b> is an increase in stratospheric levels at nearly all levels in addition to a rise in the height of the stratopause and a decrease in the height of the tropopause that create a thicker atmosphere. At larger ozone concentrations, there is more solar absorption in the stratosphere that results in warming, which under a hydrostatically balanced atmosphere creates a thicker geopotential width between the tropoause and stratopause. Moreover, <b>Fig. 3</b> shows the opposite holds for lower ozone concentrations. In this case, there is less solar absorption in the stratosphere resulting in stratospheric cooling and a thinner stratospheric layer.
+The clearest change that can be observed for the $4\times\text{O3}$ simulation compared to the control $1\times\text{O3}$ in <b>Fig. 3</b> is an increase in stratospheric levels at nearly all levels in addition to a rise in the height of the stratopause and a decrease in the height of the tropopause that create a thicker atmosphere. At larger ozone concentrations, there is more solar absorption in the stratosphere that results in warming, which under a hydrostatically balanced atmosphere creates a thicker geopotential width between the tropoause and stratopause. Moreover, <b>Fig. 3</b> shows the opposite holds for lower ozone concentrations. In this case, there is less solar absorption in the stratosphere resulting in stratospheric cooling and a thinner stratospheric layer.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -85,7 +85,7 @@ The clearest change that can be observed for the $$4\times\text{O3}$$ simulation
     <b>Figure 4:</b> Zonal wind (U) for 1×O3 (left) and difference plots: 4×O3-1×O3 (middle) and 1/4×O3-1×O3 (right). Averaged zonally over five years.
 </div>
 
-An analysis of the zonally averaged general circulation reveals that ozone concentrations have a strong influence on two circulation patterns: zonal stratospheric jets and the Hadley Circulation at the tropics. The zonal wind in the control simulation and its differences in the $$4\times$$ and $$1/4\times$$ simulations, shown in <b>Fig. 4</b>, demonstrate that at higher ozone concentrations there are stronger polar stratospheric jets and a weakening in subtropical tropospheric jets of smaller magnitude.
+An analysis of the zonally averaged general circulation reveals that ozone concentrations have a strong influence on two circulation patterns: zonal stratospheric jets and the Hadley Circulation at the tropics. The zonal wind in the control simulation and its differences in the $4\times$ and $1/4\times$ simulations, shown in <b>Fig. 4</b>, demonstrate that at higher ozone concentrations there are stronger polar stratospheric jets and a weakening in subtropical tropospheric jets of smaller magnitude.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -104,14 +104,14 @@ An analysis of the zonally averaged general circulation reveals that ozone conce
 
 For the zonally averaged meridional wind, <b>Fig. 5</b>, the bottom equatorward meridional flow and top poleward meridional flow at the tropics can be observed. These are the top and bottom branches of the Hadley Circulation, an important atmospheric circulation important in transporting mositure in the troposphere in the tropics and energy poleward. In <b>Fig 5</b>, we can see that larger ozone concentrations correspond to weaker top and bottom meridional flows in the Hadley circulation. An observation of the vertical velocity, shown in the full report at the bottom of the page, shows, at larger ozone concentrations, a decrease in the speed of ascent at the equator and in the speed of descent at 30 degress north and south at the edge of the Hadley cells indicative of a weaker Hadley circulation.
 
-In short, there are five key observations regarding atmospheric circulation for higher ozone concentrations $$(4\times\text{O3})$$:
+In short, there are five key observations regarding atmospheric circulation for higher ozone concentrations $(4\times\text{O3})$:
 * Stratospheric warming
 * Thicker stratosphere (higher stratopause and lower tropopause)
 * An unchanged lower tropospheric lapse rate
 * Strengthened polar stratospheric jets
 * Weakened Hadley Circulation
 
-The opposite story is observed at lower ozone concentrations $$(1/4\times\text{O3})$$:
+The opposite story is observed at lower ozone concentrations $(1/4\times\text{O3})$:
 * Stratospheric cooling
 * Thinner stratosphere (lower stratopause and higher tropopause)
 * An unchanged lower tropospheric lapse rate
@@ -137,12 +137,12 @@ The opposite story is observed at lower ozone concentrations $$(1/4\times\text{O
 
 The radiative heating profiles of the 1×O3 aquaplanet in <b>Fig. 6</b> depict the two key energy balances in the lower atmosphere: a stratosphere in radiative equilibrium and a troposphere in radiative-convective equilibrium. In the stratosphere, the longwave cooling matches the shortwave warming. On the other hand, the troposphere is radiatively cooling which offsets the convective heating from the surface.
 
-For **higher** ozone concentrations $$(4\times\text{O3})$$ we see key observations on the radiative heating profiles in <b>Fig. 6</b>:
+For **higher** ozone concentrations $(4\times\text{O3})$ we see key observations on the radiative heating profiles in <b>Fig. 6</b>:
 
 * The LW and SW heating in the stratosphere increase in magnitude
 * The LW and SW budgets in the troposphere are largely unaffected
 
-For **lower** ozone concentrations $$(1/4\times\text{O3})$$ we again see the opposite in the stratosphere:
+For **lower** ozone concentrations $(1/4\times\text{O3})$ we again see the opposite in the stratosphere:
 * The LW and SW heating in the stratosphere decrease in magnitude
 * The LW and SW budgets in the troposphere are largely unaffected
 
@@ -164,7 +164,7 @@ The greater longwave cooling at higher ozone concentrations is a natural consequ
     <b>Figure 8:</b> Five year zonal average of the vertically integrated total cloud fraction for each simulation.
 </div>
 
-As <b>Fig. 8</b> demonstrates, the aquaplanet is a largely cloud covered world with vertically averaged cloud fractions between 0.70 and 0.95 across all the simulations. Clouds play an important role in the radiative budget of the atmosphere because of their shortwave albedo effects and their longwave, greenhouse effects. The albedo effects are particularly important for aquaplanets without sea ice because clouds provide the only mechanism for planetary albedo to change from the oceanic albedo across the globe. We see in <b>Fig. 8</b> that the inverse relationship between global cloud cover and ozone concentration is a result of the TOA radiative balance between solar absorption and outgoing long wave radiation. In the $$4\times\text{O3}$$ run, we see that a decrease in global cloud cover causes a decrease in planetary albedo (greater solar absorption) that offsets that greater OLR to maintain the TOA radiative balance.
+As <b>Fig. 8</b> demonstrates, the aquaplanet is a largely cloud covered world with vertically averaged cloud fractions between 0.70 and 0.95 across all the simulations. Clouds play an important role in the radiative budget of the atmosphere because of their shortwave albedo effects and their longwave, greenhouse effects. The albedo effects are particularly important for aquaplanets without sea ice because clouds provide the only mechanism for planetary albedo to change from the oceanic albedo across the globe. We see in <b>Fig. 8</b> that the inverse relationship between global cloud cover and ozone concentration is a result of the TOA radiative balance between solar absorption and outgoing long wave radiation. In the $4\times\text{O3}$ run, we see that a decrease in global cloud cover causes a decrease in planetary albedo (greater solar absorption) that offsets that greater OLR to maintain the TOA radiative balance.
 
 In short, <b>Fig 7.</b> and <b>Fig. 8</b> display the TOA balance. At **higher** ozone concentrations:
 * Globally averaged OLR increases
@@ -192,20 +192,20 @@ While the focus of this project has primarily been on how climatological, zonall
 </div>
 
 
-<b>Fig. 9</b> shows the QBO calculated for the $$4\times\text{O3}$$ and $$1/4\times\text{O3}$$ simulations. At lower ozone concentrations, the QBO period becomes shorter and the increase in tropopause height can be observed by the rise in the band of westerly winds around $$100\text{ hPa}$$. At higher ozone concentrations, the QBO period is extended and more asymmetric with longer easterly phases compared to shorter and weaker westerly phases.
+<b>Fig. 9</b> shows the QBO calculated for the $4\times\text{O3}$ and $1/4\times\text{O3}$ simulations. At lower ozone concentrations, the QBO period becomes shorter and the increase in tropopause height can be observed by the rise in the band of westerly winds around $100\text{ hPa}$. At higher ozone concentrations, the QBO period is extended and more asymmetric with longer easterly phases compared to shorter and weaker westerly phases.
 
 
 # Future Work and Questions
 
-Due to the short time frame for the project, the scope of this analysis is limited. There are several interesting questions that these results bring up. It is particularly intriguing how insensitive the tropospheric lapse rate and energy balance is at different ozone concentrations. In a realistic atmosphere, where surface temperatures are allowed to change, an increased greenhouse effect (such as by increasing ozone) would increase surface temperatures and also have an influence on the lapse rate through changes on the atmospheric moisture content. Is the forcing of SSTs that prevents changes in surface temperature also inhibiting changes in the lower tropospheric lapse rate? 
+Due to the short time frame for the project, the scope of this analysis is limited. There are several interesting questions that these results bring up. It is particularly intriguing how insensitive the tropospheric lapse rate and energy balance is at different ozone concentrations. In a realistic atmosphere, where surface temperatures are allowed to change, an increased greenhouse effect (such as by increasing ozone) would increase surface temperatures and also have an influence on the lapse rate through changes on the atmospheric moisture content. Is the forcing of SSTs that prevents changes in surface temperature also inhibiting changes in the lower tropospheric lapse rate? Another area of further study is in the exploration of what other variables influence the tropopause height besides ozone. 
 
-Another interesting question lies in the asymmetry observed between the polar response and the subtropical/tropical response to changing ozone concentrations. Is the polar asymmetry a necessary result to ensure poleward transport of energy with latitudinally-varying ozone and SST distributions that peak in the tropics? Another area of further study is in the exploration of what other variables influence the tropopause height besides ozone. 
+Interestingly, while the results presented here hold well for the tropics and subtropics, there a significant differences in the radiative balance trends in the polar regions. An interesting question lies in the asymmetry observed between the polar response and the subtropical/tropical response to changing ozone concentrations. Is the polar asymmetry a necessary result to ensure poleward transport of energy with latitudinally-varying ozone and SST distributions that peak in the tropics? 
 
 Finally, the analysis of cloud properties in this paper only scratched the surface. On an aquaplanet, it is clear that clouds are important in controlling the planetary albedo and influencing the LW radiative balance. Conducting a more thorough analysis on the complex properties of clouds on the aquaplanet system could reveal interesting feedbacks between the stratospheric radiative balance and tropospheric clouds, particularly those near the tropopause.
 
 # The Full Report
-If you're interesting in learning more about this project, I wrote a full report for my course project that includes more figures and details. You can access the report below:
+If you're interested in learning more about this project, I wrote a full report for my course project that includes more figures and details. You can access the report below:
 
-<object data="https://nandroski.github.io/projects/1_project/assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf" type='application/pdf' width="300" height="200">
-  alt : <a href="https://nandroski.github.io/projects/1_project/assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf">Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf</a>
+<object data="https://nandroski.github.io/assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf" type='application/pdf' width="300" height="200">
+  alt : <a href="https://nandroski.github.io/assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf">Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf</a>
 </object>
