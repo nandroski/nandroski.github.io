@@ -14,7 +14,7 @@ For my CLIMATE 473 Climate Physics course, I used an aquaplanet model to simulat
 
 Stratospheric ozone, despite it's relatively small concentration compared to other gases in the atmosphere, has a large influence on the climate on Earth. Ozone in the stratosphere is primarily responsible for the existence of a tropopause, where lapse rate of temperature switches sign and separates the unstably stratified troposphere from the stably stratified stratosphere. Ozone has strong interactions with both shortwave (SW) and longwave (LW) radiation.
 
-<div class="row center-sm">
+<div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
     {% include figure.liquid loading="eager" path="assets/img/IR_AbsorptionBandHartmann.jpg" title="IR_Absorption_Profile" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
@@ -206,23 +206,7 @@ Finally, the analysis of cloud properties in this paper only scratched the surfa
 # The Full Report
 If you're interested in learning more about this project, I wrote a full report for my course project that includes more figures and details. You can access the report below:
 
-<object data="https://nandroski.github.io/assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf" type='application/pdf' width="500" height="375">
-  alt : <a href="https://nandroski.github.io/assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf">Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf</a>
-</object>
-
-<br>
-
-<iframe src="https://drive.google.com/viewerng/viewer?url=https://nandroski.github.io/assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report&hl=en&pid=explorer&efh=false&a=v&chrome=false&embedded=true" frameborder="0"></iframe>
-
-<br>
-
-<iframe src="https://drive.google.com/viewerng/
-viewer?embedded=true&url=https://nandroski.github.io/assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf" frameborder="0"></iframe>
-
-<br>
-
-<object data="https://drive.google.com/viewerng/
-viewer?embedded=true&url=https://nandroski.github.io/assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf" type='application/pdf' width="500" height="375">
+<object data="https://nandroski.github.io/assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf" type='application/pdf' width="700" height="500" align="middle">
   alt : <a href="https://nandroski.github.io/assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf">Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf</a>
 </object>
 
