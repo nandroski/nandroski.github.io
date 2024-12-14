@@ -228,15 +228,13 @@ Finally, the analysis of cloud properties in this paper only scratched the surfa
 # The Full Report
 If you're interested in learning more about this project, I wrote a full report for my course project that includes more figures and details. You can access the report below:
 
-<object data="https://nandroski.github.io/assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf" type='application/pdf' width="700" height="500" align="middle">
+<object data="https://nandroski.github.io/assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf" type='application/pdf' width="100%" height="500" align="middle">
   alt : <a href="https://nandroski.github.io/assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf">Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf</a>
 </object>
 
 If the PDF does not render, you can access the report at the following link: [Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf](https://nandroski.github.io/assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf)
 
-<br>
-
-<iframe src="https://nandroski.github.io/assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf" width="100%" height="500">
+<!-- <iframe src="https://nandroski.github.io/assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf" width="100%" height="500"> -->
 
 
 
