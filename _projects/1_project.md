@@ -236,7 +236,7 @@ If the PDF does not render, you can access the report at the following link: [St
 
 <br>
 
-<iframe src="https://nandroski.github.io/assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf" width="100%" height="100%"
+<iframe src="https://nandroski.github.io/assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf" width="100%" height="100%">
 
 
 
