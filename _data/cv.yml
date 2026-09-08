@@ -4,7 +4,7 @@
     - name: Full Name
       value: Nicholas H. Androski
     - name: Location
-      value: Department of Climate and Space Sciences and Engineering (CLASP) 2455 Hayward St
+      value: University of Michigan Ann Arbor Climate and Space Sciences and Engineering (CLaSP)
     - name: Email
       value: <a href='mailto:nandrosk@umich.edu'>nandrosk@umich.edu</a>
 
@@ -12,9 +12,12 @@
   type: time_table
   contents:
     - degree: PhD
-      institution: University of Michigan, Ann Arbor, Michigan
+      institution: University of Michigan, Ann Arbor
       description:
        - 2024 - Present. Anticipated 2029.
+    - degree: MS:
+      institution: University of Michigan, Ann Arbor
+      year: 2026
     - degree: BS
       institution: Cal  Poly, San Luis Obispo
       year: 2024
@@ -25,7 +28,20 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Solar Research Experience for Undergraduates
+    - title: Graduate Student Research Assistant
+      institution: University of Michigan
+      description:
+        - Advised by Dr. Christiane Jablonowski
+        - Working on the NSF StormSPEED project to integrate DOE’s non-hydrostatic spectral element dynamical core and
+assess its scientific validity with a focus on idealized test cases of convective dynamics.
+        - Developing and using idealized test cases to understand the sensitivity of dynamical core modeling decisions on atmospheric flow.
+        - Using GIS tools to assess risk to environmental hazards and the inequities in who faces the worst risks within Washtenaw
+County as a part of the Rackham Reparative Justice Research Group.
+        - Contributing to the organization of non-hierarchal monthly discussions of justice topics, such as climate and energy
+justice, with a focus on identifying the action we can enact in the present.
+
+  
+    - title: Solar REU Intern
       institution: Center for Astrophysics Harvard and Smithsonian.
       year: 2023
       description:
@@ -64,9 +80,8 @@
 - title: Publications and Technical Reports
   type: time_table
   contents:
-    - title: Andorksi, N.H, Paulson, K. (2024). Identifying Ion-Scale Waves in Parker Solar Probe Sub-Alfvénic Intervals. <a href='https://digitalcommons.calpoly.edu/physsp/234'>Digital Commons at Cal Poly</a>.
-          
-      
+    - title: Androski, N.H, Paulson, K. (2024). Identifying Ion-Scale Waves in Parker Solar Probe Sub-Alfvénic Intervals. <a href='https://digitalcommons.calpoly.edu/physsp/234'>Digital Commons at Cal Poly</a>.
+
 
 - title: Honors and Awards
   type: time_table
@@ -76,7 +91,22 @@
         - California Polytechnic State University, San Luis Obispo Philip and Christina Bailey College of Science and Math 2024 Academic Excellence Award
         - Cal Poly, San Luis Obispo Department of Physics Academic Excellence Award
         - 'California Polytechnic State University, San Luis Obispo graduating honors Summa Cum Laude'
-        - "Cal Poly, San Luis Obispo Philip and Christina Bailey College of Science and Math Deans List All quarters of attendance"
+        - "Cal Poly, San Luis Obispo Philip and Christina Bailey College of Science and Math Deans List for all quarters of attendance"
+
+- title: Volunteer
+  type: time_table
+  contents:
+    - title: Graduate Undergraduate Student Organization (GUStO) Student Engagement Chair
+      description:
+        - University of Michigan
+        - Organize and run events for graduate and undegraduate students within the climate and space department.
+        - Compile annual budgets and plans for student events.
+    - title: Society of Physics Students President
+      description:
+          - Cal Poly San Luis Obispo Fall 2022 - Spring 2024
+          - Established a set of social norms for the physics community lounge in collaboration with the Women in Physics club based upon a community focused townhall in order to make the space more welcoming and safe for new students and underrepresented members of the community.
+          - Led weekly meetings to oversee progress and delegate tasks towards goals that promote diversity and a sense of community in the difficult journey of studying physics.
+          - Planned the physics department spring banquet with 100+ attendees to celebrate and honor the work of faculty and students.
 
 - title: Academic Interests
   type: nested_list
@@ -84,13 +114,18 @@
     - title: Climate Modeling.
       items:
         - Global high resolution model development, particularly in the realm of atmospheric dynamics.
-        - Ideal model test cases for purposes of comparison and deeper understanding.
-    - title: Data Visualization and Interaction
+        - Ideal model test cases for to assess model sensitivities and improve model fidelity.
+        - "NCAR's Community Earth System Model (CESM) and the Spectral Element (SE) dynamical core."
+    - title: Data Visualization and Model Documentation.
       items:
         - Particularly applied as a tool for education.
         - Focus on open source development with plentiful documentation.
+    - title: Environmental Justice.
+      items:
+        - Inequities in vulernable populations to heat extremes and urban heat island effects
+        - Incorporating a lens of environmental justice within climate science that addresses how inequities and systems of exploitation exacerbate and fuel the climate crisis.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Biking, cooking, volleyball, hiking, learning something new!
+    - <u>Hobbies:</u> Biking, gardening, volleyball, hiking, learning something new!

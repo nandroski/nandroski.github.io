@@ -2,7 +2,7 @@
 layout: page
 title: Idealized Modeling Hierarchy for Non-hydrostatic Dynamical Cores
 description: Applying idealized test cases to understand how global climate models at the km-scale represent convection.
-img: assets/img/OzoneFrac.png
+img: assets/img/squall_zoomed_in.png
 importance: 1
 category: work
 related_publications: false
