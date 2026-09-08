@@ -15,11 +15,12 @@
       institution: University of Michigan, Ann Arbor
       description:
        - 2024 - Present. Anticipated 2029.
-    - degree: MS:
+       - Attained Candidacy in May 2026
+    - degree: MS
       institution: University of Michigan, Ann Arbor
       year: 2026
     - degree: BS
-      institution: Cal  Poly, San Luis Obispo
+      institution: Cal Poly, San Luis Obispo
       year: 2024
       description:
         - Minors in Astronomy and Mathematics.
@@ -32,7 +33,7 @@
       institution: University of Michigan
       description:
         - Advised by Dr. Christiane Jablonowski
-        - "Working on the NSF StormSPEED project to integrate DOE’s non-hydrostatic spectral element dynamical core and assess its scientific validity with a focus on idealized test cases of convective dynamics."
+        - "Working on the NSF StormSPEED project to integrate DOE's non-hydrostatic spectral element dynamical core and assess its scientific validity with a focus on idealized test cases of convective dynamics."
         - Developing and using idealized test cases to understand the sensitivity of dynamical core modeling decisions on atmospheric flow.
         - Using GIS tools to assess risk to environmental hazards and the inequities in who faces the worst risks within Washtenaw County as a part of the Rackham Reparative Justice Research Group.
         - Contributing to the organization of non-hierarchal monthly discussions of justice topics, such as climate and energy justice, with a focus on identifying the action we can enact in the present.
