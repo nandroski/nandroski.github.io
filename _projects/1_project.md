@@ -24,7 +24,18 @@ My current PhD research focuses on using a hierarchy of idealized test cases wit
 
 Global climate models have historical operated at resolutions above 25 km or more. At these coarse resolutions, the vertical pressure gradient force and gravity balance each other to good approximation. This 'hydrostatic approximation' has been a mainstay in climate modeling, embedded into the design of the dynamical core and physics components of atmospheric models. However, within the past decade global climate models have moved begun to reach scales on the order of kilometers (i.e. the km-scale). At these scales, the deviations from hydrostatic balance become important especially for convective storm systems and using non-hydrostatic equations of motion is key for representing these dynamics.
 
-Convection is the vertical – often turbulent – transport of moisture and heat induced by buoyancy.
+Convection is the vertical – often turbulent – transport of moisture and heat induced by buoyancy (the force driven by local differences in density). While in hydrostatic equations of motion, the vertical motion is diagnosed, in a non-hydrostatic model vertical velocity has it's own tendency equation given by:
+
+$$
+\frac{Dw}{Dt} = -\frac{1}{\rho}\frac{\partial p}{\partial z} - g + F_{\text{Diffusion}}
+$$
+where $w$ is vertical velocity, $\rho$ total density of air, $p$ pressure, $g$ the acceleration due to gravity, and $F_\text{diffusion}$ the forcings from numerical diffusion. Often in the literature, this tendency equation using a decomposition of pressure.
+
+$$
+\frac{Dw}{Dt}=-\frac{1\rho}\frac{\partial p_{\text{nh}}}{\partial z} + F_{\text{Diffusion}}= -\frac{1}{\rho}\frac{\partial p'}{\partial z} -\frac{\rho'}{\rho}g
+$$
+
+
 
 <a name="paragraph1"></a>
 <br>
@@ -75,11 +86,11 @@ List sensitivities here:
 # The Full Report
 If you're interested in learning more about my work, I wrote a full report for my qualifying exam in May 2026 that includes more figures and details, particularly on the squall line test case. You can access the report below:
 
-<object data="https://nandroski.github.io/assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf" type='application/pdf' width="100%" height="500" align="middle">
-  alt : <a href="https://nandroski.github.io/assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf">Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf</a>
+<object data="https://nandroski.github.io/assets/pdf/Androski_Quals_Report.pdf" type='application/pdf' width="100%" height="500" align="middle">
+  alt : <a href="https://nandroski.github.io/assets/pdf/Androski_Quals_Report.pdf">Androski_Quals_Report.pdf</a>
 </object>
 
-If the PDF does not render, you can access the report at the following link: [Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf](https://nandroski.github.io/assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf)
+If the PDF does not render, you can access the report at the following link: [Androski_Quals_Report.pdf](https://nandroski.github.io/assets/pdf/Androski_Quals_Report.pdf)
 
 <!-- <iframe src="https://nandroski.github.io/assets/pdf/Stratospheric_Ozone__CLIMATE_473_Project_Report.pdf" width="100%" height="500"> -->
 

@@ -48,7 +48,7 @@ rss_icon: false
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
+search_enabled: false
 socials_in_search: true
 bib_search: true
 
@@ -139,7 +139,7 @@ lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: True
 
 related_blog_posts:
   enabled: false

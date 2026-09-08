@@ -12,15 +12,15 @@
   type: time_table
   contents:
     - degree: PhD
-      institution: University of Michigan, Ann Arbor
+      institution: Climate and Space Sciences Engineering PhD (University of Michigan, Ann Arbor)
       description:
        - 2024 - Present. Anticipated 2029.
        - Attained Candidacy in May 2026
     - degree: MS
-      institution: University of Michigan, Ann Arbor
+      institution: Climate and Space Sciences Engineering MS (University of Michigan, Ann Arbor)
       year: 2026
     - degree: BS
-      institution: Cal Poly, San Luis Obispo
+      institution: Physics BS (Cal Poly, San Luis Obispo)
       year: 2024
       description:
         - Minors in Astronomy and Mathematics.

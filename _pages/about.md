@@ -18,16 +18,36 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-### My name is Nicholas and Androski and I am currently a 3rd year PhD candidate at the [University of Michigan's](https://clasp.engin.umich.edu/) (UM) Climate and Space Science department advised by Dr. Christiane Jablonowski. Currently, I am involved in the [NSF StormSPEED project](https://sites.google.com/umich.edu/nsf-stormspeed) which aims to implement an existing non-hydrostatic spectral element (SE-NH) dynamical core from the Department of Energy (DOE) into NCAR's Community Earth System Model (CESM) to enable climate modeling for the entire globe at the km-scale. I use idealized test cases as a computationally efficient tool to probe the representation of convection, which begins to be resolved at the km-scale, in climate models at the km-scale. You can see more about my reasearch [here](https://nandroski.github.io/projects/1_project/).
+### I am a 3rd year PhD candidate at the [University of Michigan's](https://clasp.engin.umich.edu/) (UM) Climate and Space Science department in Ann Arbor, Michigan.
 
-In 2024, I recieved my BS in Physics at [Cal Poly San Luis Obispo](https://calpoly.edu) with minors in mathematics and astronomy where I studied [solar corona physics](https://digitalcommons.calpoly.edu/physsp/234/) and [stellar evolution](https://aas241-aas.ipostersessions.com/?s=68-F7-D6-9E-51-76-EB-58-0E-CC-C3-ED-0D-7E-5D-86).
+---
 
+I work in the [Atmospheric and Dynamics Modelling Group](https://admg.engin.umich.edu/) at UM and am advised by Dr. Christiane Jablonowski. Currently, I am involved in the [NSF StormSPEED project](https://sites.google.com/umich.edu/nsf-stormspeed) which aims to implement an existing non-hydrostatic spectral element (SE-NH) dynamical core from the Department of Energy (DOE) into NCAR's Community Earth System Model (CESM) to enable climate modeling for the entire globe at the km-scale. You can see more about my reasearch [here](https://nandroski.github.io/projects/1_project/).
+
+## Research Focus
+* High resolution, km-scale climate model development, primarily in the Community Earth System Model (CESM)
+* Assessment of convection representation in global circulation models (GCMs) through an idealized modeling hierarchy
+* Inequities in the vulnerability to heat extremes and urban heat island effect in Washtenaw County (home to Ann Arbor)
+
+## Education:
+* Master of Science (MS) in Climate and Space Sciences and Engineering – University of Michigan, Ann Arbor (2024 – 2026)
+* Bachelor of Science (BS) in Physics with minors in Math and Astronomy – Cal Poly, San Luis of Obispo (2020-2024)
+    * Measuring the age of stars with a bayesian statistics approach (manuscript in progress, [see poster here](https://aas241-aas.ipostersessions.com/?s=68-F7-D6-9E-51-76-EB-58-0E-CC-C3-ED-0D-7E-5D-86))
+    * Ion-cyclotron waves in the solar corona with Parker Solar Probe Data ([senior project](https://digitalcommons.calpoly.edu/physsp/234/) with Dr. Kristoff Paulson at the Center for Astrophysics) 
+
+
+ 
+Now I use idealized test cases as a computationally efficient tool to probe the representation of convection, which begins to be resolved at the km-scale, in climate models at the km-scale. 
+
+## Other Interests
 Climate models can be difficult to use and their code even harder to decipher. I strive to make modeling more accessible and transparent to the everyday model-user! Moreover, climate science is more than just modeling. At the heart of climate change are issues of environmental justice brought upon by interconnected systems of colonialism, capitalism, and racial supremacy. I am passionate in bridging climate science with the environmental justice issues felt by our communities. At my department I contribute to the organization of non-hierarchal monthly disussions of justice-related topics. Also, I have worked within the Reparative Justice Research Group at the UM Rackham Interdisciplinary Problem Solving Initiative where I researched how historical racial injustices experienced by Black residents within Washtenaw County (home to Ann Arbor) are associated with inequities in the vulnerability to heat extremes today. 
 
+---
 
 <br />
 <br />
 <br />
-See your polynomial of the day:<br />
+## See your polynomial of the day:
+<br />
 
 <iframe src="https://www.desmos.com/calculator/ibkd035vqz?embed" width="750" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
