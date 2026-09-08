@@ -22,6 +22,9 @@ My current PhD research focuses on using a hierarchy of idealized test cases wit
 <br>
 # Non-hydrostatic Dynamics and Convection
 
+Global climate models have historical operated at resolutions above 25 km or more. At these coarse resolutions, the vertical pressure gradient force and gravity balance each other to good approximation. This 'hydrostatic approximation' has been a mainstay in climate modeling, embedded into the design of the dynamical core and physics components of atmospheric models. However, within the past decade global climate models have moved begun to reach scales on the order of kilometers (i.e. the km-scale). At these scales, the deviations from hydrostatic balance become important especially for convective storm systems and using non-hydrostatic equations of motion is key for representing these dynamics.
+
+Convection
 
 <a name="paragraph1"></a>
 <br>
