@@ -25,7 +25,6 @@
         <div class="navbar-brand social">{% include social.liquid %}</div>
       {% endif %}
       <!-- Navbar Toggle -->
-      <!--
       <button
         class="navbar-toggler collapsed ml-auto"
         type="button"
@@ -95,7 +94,8 @@
                     {% endfor %}
                   </div>
                 </li>
-              {% else %}
+<!--            
+            {% else %}
                 {% assign parent_link = p.permalink | remove: 'index.html' %}
                 <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
                   {% if p.permalink contains '/blog/' %}{% assign url = '/blog/' %} {% else %}{% assign url = p.url %}{% endif %}
@@ -105,11 +105,11 @@
                       <span class="sr-only">(current)</span>
                     {% endif %}
                   </a>
-                </li>
-              {% endif %}
+                </li> 
+-->
+              {% endif %} 
             {% endif %}
-          {% endfor %}
-          -->
+          {% endfor %} 
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">
